@@ -15,4 +15,4 @@ I've had a lot of help from <a href="https://gitlab.com/Mactroll">Joel Rennich</
 
 I'm still publishing this now since that helps me add things to it "on-the-fly" and I might get some help from others if I can share what I've got so far.
 
-Last updated: 2017-05-02
+*Last updated: 2017-05-02*
