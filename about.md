@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-In January 1991, when working for <a href="https://www.ericsson.com/">Ericsson</a>, I got my DOS-only PC replaced with a <a href="https://en.wikipedia.org/wiki/SPARCstation_1">Sun SPARCStation 1</a> which changed my way of working and my way of life. I found <a href="https://en.wikipedia.org/wiki/Unix">UNIX</a> in the form of <a href="https://en.wikipedia.org/wiki/SunOS">SunOS 4.1.1B</a>.
+In January 1991, when working for <a href="https://www.ericsson.com/">Ericsson</a>, I got my <a href="https://en.wikipedia.org/wiki/MS-DOS">DOS</a>-only <a href="http://oju.mbnet.fi/retro/EricssonPC_eng.html">Ericsson PC</a> replaced with a <a href="https://en.wikipedia.org/wiki/SPARCstation_1">Sun SPARCStation 1</a> which changed my way of working and my way of life. I found <a href="https://en.wikipedia.org/wiki/Unix">UNIX</a> in the form of <a href="https://en.wikipedia.org/wiki/SunOS">SunOS 4.1.1B</a>.
 
 In October 1994 I had tired of testing the <a href="https://en.wikipedia.org/wiki/AXE_telephone_exchange">AXE Telephone Exchange</a> that I was supposed to do and changed jobs within Ericsson to become a full time SysAdmin for some 1500 users, initially still on SunOS 4, but pretty soon I had to convert from <a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a> to the <a href="https://en.wikipedia.org/wiki/UNIX_System_V#SVR4">SVR4</a>-based <a href="https://en.wikipedia.org/wiki/Solaris_(operating_system)">Solaris</a> 2.4.
 
