@@ -14,3 +14,5 @@ So, together with one of our Windows techs I created a <a href="https://develope
 I've had a lot of help from <a href="https://gitlab.com/Mactroll">Joel Rennich</a> in trying to understand some of this, but I'm not comfortable enough with my understanding about how this actually work to be able to present it to a technical crowd yet.
 
 I'm still publishing this now since that helps me add things to it "on-the-fly" and I might get some help from others if I can share what I've got so far.
+
+Last updated: 2017-05-02
