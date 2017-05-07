@@ -1,7 +1,7 @@
---
+---
 layout: posts
 title: Jira upgrade and migration
---
+---
 
 I have spent a couple of weeks planning and testing an upgrade and migration of our production-instance of <a href="https://atlassian.com/software/jira/">JIRA</a>.
 
