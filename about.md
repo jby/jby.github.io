@@ -44,6 +44,6 @@ My own estimation is that I went from having 30% usage of my left arm/hand to ha
 
 So beginning of february 2016 I was back to about 80% usage of both arm/hand and leg.
 
-I started going back to the office for limited time (2 hours a day initially) in April, increasing the hours over time and since August 1 2016 I work full time again.
+I started going back to the office for limited time (2 hours a day initially, and only 4 days a week) in April, increasing the hours over time and since August 1 2016 I work full time again.
 
-*Last updated: 2017-05-02*
+*Last updated: 2017-05-07*
