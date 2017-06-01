@@ -10,5 +10,16 @@ The tricky part is tomcat, whose server.xml-file comes cluttered with all possib
 This is what the important part of my server.xml looks like now:
 
 ```xml
-<Connector URIEncoding="UTF-8" port="8080" address="127.0.0.1" executor="tomcatThreadPool" protocol="HTTP/1.1" scheme="https" connectionTimeout="20000" proxyName="jss.company.com" proxyPort="443" redirectPort="8443" />
+<Connector
+  URIEncoding="UTF-8"
+  port="8080"
+  address="127.0.0.1"
+  executor="tomcatThreadPool"
+  protocol="HTTP/1.1"
+  scheme="https"
+  connectionTimeout="20000"
+  proxyName="jss.company.com"
+  proxyPort="443"
+  redirectPort="8443"
+  />
 ```
