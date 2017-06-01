@@ -9,7 +9,7 @@ The tricky part is tomcat, whose server.xml-file comes cluttered with all possib
 
 This is what my server.xml looks like now:
 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
