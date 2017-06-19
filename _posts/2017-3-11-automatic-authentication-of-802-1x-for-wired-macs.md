@@ -11,7 +11,7 @@ We have primarily Windows desktops and laptops in our company, and for them it "
 
 So, together with one of our Windows techs I created a <a href="https://developer.apple.com/library/content/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html">Config Profile</a> containing our CA root Cert and config to use <a href="https://tools.ietf.org/html/rfc5216">EAP-TLS</a> to get authenticated, it does however require an AD-computer object, which I create by binding to the AD beforehand, then it's just a question of adding the computer object to the correct SG in the AD to get an IP-address on the correct subnet (depending on what department you work at).
 
-I've had a lot of help from <a href="https://gitlab.com/Mactroll">Joel Rennich</a> in trying to understand some of this, but I'm not comfortable enough with my understanding about how this actually work to be able to present it to a technical crowd yet.
+I've had a lot of help from <a href="https://twitter.com/mactroll">Joel Rennich</a> in trying to understand some of this, but I'm not comfortable enough with my understanding about how this actually work to be able to present it to a technical crowd yet.
 
 I'm still publishing this now since that helps me add things to it "on-the-fly" and I might get some help from others if I can share what I've got so far.
 
