@@ -20,6 +20,6 @@ This is what the important part of my server.xml looks like now:
   connectionTimeout="20000"
   proxyName="jss.company.com"
   proxyPort="443"
-  redirectPort="8443"
+  redirectPort="443"
   />
 ```
