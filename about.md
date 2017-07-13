@@ -14,6 +14,10 @@ Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href=
 
 We currently use <a href="https://www.filewave.com/">FileWave</a> to manage these Macs (130 to date).
 
+*Update 2017-07-13*
+
+I now have a working <a href="https://jamf.com">Jamf Pro</a> intstallation set to replace our current FileWave.
+
 ### More Information
 
 Saturday August 15 2015, 5 days after my 46th birthday, I suffered a stroke while preparing for a dog show in Norrköping.
@@ -46,4 +50,4 @@ So beginning of february 2016 I was back to about 80% usage of both arm/hand and
 
 I started going back to the office for limited time (2 hours a day initially, and only 4 days a week) in April, increasing the hours over time and since August 1 2016 I work full time again.
 
-*Last updated: 2017-05-07*
+*Last updated: 2017-07-13*
