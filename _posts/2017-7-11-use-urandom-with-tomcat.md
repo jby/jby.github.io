@@ -6,7 +6,8 @@ title: Use urandom instead of random with tomcat for JSS
 Running Jamf Pro on a virtual server (2 cores, 4gb ram, with CentOS 7.3.1611) doesn't seem to work without telling java to use '/dev/urandom' as source for "randomness".
 
 By default it will try to use /dev/random, which blocks random generation until enough entropy is gathered (which can take a very long time). We are not able to start JAMF without adding the flag "-Djava.security.egd=file:/dev/./urandom" to the variable "JAVA_OPTS" in '/etc/init.d/jamf.tomcat8'.  (According to https://wiki.apache.org/tomcat/HowTo/FasterStartUp) Is there a better way of doing this, is this behaviour documented anywhere, or are we simply missing something ? Below are the logs from a start of JAMF without the flag,
-= = = = = = = = =  Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+= = = = = = = = =
+```Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
 10-Jul-2017 17:51:48.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version: Apache Tomcat/8.0.43
 10-Jul-2017 17:51:48.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built: Mar 28 2017 14:42:59 UTC
 10-Jul-2017 17:51:48.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number: 8.0.43.0
@@ -38,9 +39,11 @@ By default it will try to use /dev/random, which blocks random generation until 
 10-Jul-2017 17:51:49.060 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
 10-Jul-2017 17:51:49.060 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.43
 10-Jul-2017 17:51:49.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /usr/local/jss/tomcat/webapps/ROOT.war
-10-Jul-2017 17:52:02.667 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. ClassLoaderLeakPreventor: Settings for se.jiderhamn.classloader.leak.prevention.ClassLoaderLeakPreventor (CL: 0x624fc60c): ClassLoaderLeakPreventor: stopThreads = false ClassLoaderLeakPreventor: stopTimerThreads = true ClassLoaderLeakPreventor: executeShutdownHooks = true ClassLoaderLeakPreventor: threadWaitMs = 5000 ms ClassLoaderLeakPreventor: shutdownHookWaitMs = 10000 ms ClassLoaderLeakPreventor: Initializing context by loading some known offenders with system classloader <- This is the last row. Nothing shows up after this.
-= = = = = = = = =  Below are the logs from a successful startup with the flag '-Djava.security.egd=file:/dev/./urandom' added,
-= = = = = = = = =  Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+10-Jul-2017 17:52:02.667 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. ClassLoaderLeakPreventor: Settings for se.jiderhamn.classloader.leak.prevention.ClassLoaderLeakPreventor (CL: 0x624fc60c): ClassLoaderLeakPreventor: stopThreads = false ClassLoaderLeakPreventor: stopTimerThreads = true ClassLoaderLeakPreventor: executeShutdownHooks = true ClassLoaderLeakPreventor: threadWaitMs = 5000 ms ClassLoaderLeakPreventor: shutdownHookWaitMs = 10000 ms ClassLoaderLeakPreventor: Initializing context by loading some known offenders with system classloader``` <- This is the last row. Nothing shows up after this.
+= = = = = = = = =
+Below are the logs from a successful startup with the flag '-Djava.security.egd=file:/dev/./urandom' added,
+= = = = = = = = =
+```Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
 10-Jul-2017 16:51:03.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version: Apache Tomcat/8.0.43
 10-Jul-2017 16:51:03.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built: Mar 28 2017 14:42:59 UTC
 10-Jul-2017 16:51:03.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number: 8.0.43.0
@@ -81,4 +84,4 @@ By default it will try to use /dev/random, which blocks random generation until 
 10-Jul-2017 16:59:06.653 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 482482 ms CMFileReset:JAMFCMFILE CMSyslogReset:JAMFCMSYSLOG
 10-Jul-2017 16:59:48.560 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance. §10-Jul-2017 16:59:48.561 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-127.0.0.1-8080"]
 10-Jul-2017 16:59:48.612 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
-10-Jul-2017 16:59:48.662 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina Starting deallocation Deallocation complete
+10-Jul-2017 16:59:48.662 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina Starting deallocation Deallocation complete```
