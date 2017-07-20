@@ -6,6 +6,7 @@ title: Use urandom instead of random with tomcat for JSS
 Running Jamf Pro on a virtual server (2 cores, 4gb ram, with CentOS 7.3.1611) doesn't seem to work without telling java to use '/dev/urandom' as source for "randomness".
 
 By default it will try to use /dev/random, which blocks random generation until enough entropy is gathered (which can take a very long time). We are not able to start JAMF without adding the flag "-Djava.security.egd=file:/dev/./urandom" to the variable "JAVA_OPTS" in '/etc/init.d/jamf.tomcat8'.  (According to https://wiki.apache.org/tomcat/HowTo/FasterStartUp) Is there a better way of doing this, is this behaviour documented anywhere, or are we simply missing something ? Below are the logs from a start of JAMF without the flag,
+
 = = = = = = = = =
 ```Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
 10-Jul-2017 17:51:48.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version: Apache Tomcat/8.0.43
