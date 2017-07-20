@@ -3,7 +3,7 @@ layout: post
 title: JSS tomcat behind Apache proxy
 ---
 
-So, I've now spent two days setting upp an apache proxy in front of the built-in tomcat 8 in my new JSS.
+So, I've now spent two days setting up an apache proxy in front of the built-in tomcat 8 in my new JSS.
 
 The tricky part is tomcat, whose server.xml-file comes cluttered with all possible options at install.
 
