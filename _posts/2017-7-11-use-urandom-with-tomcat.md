@@ -44,7 +44,7 @@ By default it will try to use /dev/random, which blocks random generation until 
 = = = = = = = = =
 Below are the logs from a successful startup with the flag '-Djava.security.egd=file:/dev/./urandom' added,
 = = = = = = = = =
-```Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
 10-Jul-2017 16:51:03.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version: Apache Tomcat/8.0.43
 10-Jul-2017 16:51:03.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built: Mar 28 2017 14:42:59 UTC
 10-Jul-2017 16:51:03.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number: 8.0.43.0
