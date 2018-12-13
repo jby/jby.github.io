@@ -22,3 +22,5 @@ export HIPCHATRATELIMIT=10000
 curl --include --insecure https://127.0.0.1/v2/user?auth_token=your_apiv2_auth_token | grep Ratelimit
 ```
 The last curl will tell you what it's set to.
+
+:exclamation: <em>Note:</em> This is neither recommended nor supported by Atlassian (or maybe Slack nowadays)
