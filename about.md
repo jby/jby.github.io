@@ -14,7 +14,7 @@ Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href=
 
 As of 2019 I'm also responsible for setting up a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora.
 
-We currently use <a href="https://jamf.com">Jamf Pro</a> in addition to <a href="https://munki.org/munki/">Munki</a> to manage these Macs (160 to date).
+We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in addition to <a href="https://munki.org/munki/">Munki</a> to manage these Macs (160 to date).
 
 We previously used <a href="https://www.filewave.com/">FileWave</a> for a couple of years for this.
 
