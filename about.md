@@ -12,11 +12,11 @@ At the end of 1995 I grew weary of the Ericsson salary-politics and left to work
 
 Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href="https://en.wikipedia.org/wiki/HP-UX">HP-UX</a> and <a href="https://www.centos.org/">CentOS</a> up until November of 2016 when I took over as technical lead for all <a href="https://www.apple.com/mac/">Macs</a> at my current Company, having used a MacPro and a MacBookPro as my work computers since 2011.
 
-We currently use <a href="https://www.filewave.com/">FileWave</a> to manage these Macs (130 to date).
+As of 2019 I'm also responsible for setting up a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora.
 
-*Update 2017-07-13*
+We currently use <a href="https://jamf.com">Jamf Pro</a> in addition to <a href="https://munki.org/munki/">Munki</a> to manage these Macs (160 to date).
 
-I now have a working <a href="https://jamf.com">Jamf Pro</a> intstallation set to replace our current FileWave.
+We previously used <a href="https://www.filewave.com/">FileWave</a> for a couple of years for this.
 
 ### More Information
 
