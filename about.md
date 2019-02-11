@@ -1,7 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
+sidebar_link: true
+sidebar_sort_order: 70
 ---
 
 In January 1991, when working for <a href="https://www.ericsson.com/">Ericsson</a>, I got my <a href="https://en.wikipedia.org/wiki/MS-DOS">DOS</a>-only <a href="http://oju.mbnet.fi/retro/EricssonPC_eng.html">Ericsson PC</a> replaced with a <a href="https://en.wikipedia.org/wiki/SPARCstation_1">Sun SPARCStation 1</a> which changed my way of working and my way of life. I found <a href="https://en.wikipedia.org/wiki/Unix">UNIX</a> in the form of <a href="https://en.wikipedia.org/wiki/SunOS">SunOS 4.1.1B</a>.
