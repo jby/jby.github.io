@@ -2,6 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+
 # Name of your site (displayed in the header)
 name: Jonas Bygdén
 
@@ -85,3 +90,19 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
