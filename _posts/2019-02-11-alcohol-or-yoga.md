@@ -4,7 +4,7 @@ title: Alcohol or yoga?
 comments: false
 ---
 
-<h3>According to some research, alcohol will give you the same result as yoga</h3>
+<h3>According to some research, alcohol will give you the same result as yoga...</h3>
 
 <center>
 <h2>Savasana</h2>
