@@ -17,6 +17,7 @@ Firstname Lastname, username, email address
 John Doe, johnd, john.doe@company.com
 
 Data in HC:
+
 Firstname Lastname, mention name, email address
 John Doe, JohnDoe, john.doe@company.com
 
