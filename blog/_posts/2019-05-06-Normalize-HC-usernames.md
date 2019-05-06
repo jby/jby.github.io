@@ -26,7 +26,8 @@ Rocket.chat will import these users, but they won't be able to login using their
 
 Mattermost will *not* import these users, as it will already have the email address in the system and see johnd as a conflicting user since JohnDoe already has that email address.
 
-With a little help from a friend I've written a <a href=https://github.com/jby/python/blob/master/normalize_hc_username.py>python script</a> that will take the exported users.json, match the email addresses of all users and replace the mention_name with the users proper username from a CSV-export of users from our AD.
+With a little help from a couple of friends I've written a <a href=https://github.com/jby/python/blob/master/normalize_hc_username.py>python script</a> that will take the exported users.json, match the email addresses of all users and replace the mention_name with the users proper username from a CSV-export of users from our AD.
 
 After that I recommend using the <a href=https://github.com/ergon/migratemost>Migratemost script</a> to convert your data from HipChat json to Mattermost jsonl, if you are going to import into Mattermost.
 
+The import into Rocket.chat is much more straight forward, with a GUI in the admin panel. You *will* however have to re-pack the export before importing it into Rocket.chat, since it wants a decrypted tar.gz-file or a zip-file.
