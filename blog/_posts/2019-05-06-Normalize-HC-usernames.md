@@ -4,9 +4,11 @@ title: Normalize HipChat usernames
 comments: false
 ---
 
-When exporting data from HipChat Server or Data Center you will end up with unusable usernames due to the fact that HipChat doesn't care about usernames, it uses email address as it's authentication id. 
+When exporting data from HipChat Server or Data Center you will end up with unusable usernames due to the fact that HipChat doesn't care about usernames, it uses email address as it's authentication id.
+
 It will create usernames (or mention names (mention_name variable) as it calls it) from your users full names, i.e. Firstname Lastname becomes FirstnameLastname, it will then allow users to change this into whatever they like.
 Now trying to import all these users into another system that uses AD/LDAP for authentication will most likely not work since your AD/LDAP will probably (most likely) not be setup to use accountnames constructed like FirstnameLastname. When importing into for instance Mattermost it will complain about email address already used with another username and bail out.
+
 Let's look at an example:
 
 Data in AD:
