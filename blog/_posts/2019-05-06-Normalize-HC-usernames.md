@@ -13,12 +13,12 @@ Let's look at an example:
 
 Data in AD:
 
-Firstname Lastname, username, email address
+Firstname Lastname, username, email address<br>
 John Doe, johnd, john.doe@company.com
 
 Data in HC:
 
-Firstname Lastname, mention name, email address
+Firstname Lastname, mention name, email address<br>
 John Doe, JohnDoe, john.doe@company.com
 
 Now, any _proper_ auth system will recognize these two as _different_ users with the same fullname and email address, but since only email address is signinficant in HipChat - it will see it as the same user with different nicknames.
