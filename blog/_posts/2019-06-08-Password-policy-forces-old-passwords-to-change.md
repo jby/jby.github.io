@@ -4,7 +4,7 @@ title: Password policy forces old passwords to change
 comments: false
 ---
 
-I've been playing with setting a password policy for all our Mac users with a configuration profile from Jamf Pro.
+I've been playing with setting a password policy for all our Mac users with a configuration profile from <a href="https://www.jamf.com/products/jamf-pro/">Jamf Pro</a>.
 
 If you set a max password age in such a policy macOS will look at the key passwordLastSetTime:
 ```
