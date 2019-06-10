@@ -13,4 +13,4 @@ If you set a max password age in such a policy macOS will look at the key passwo
 ```
 Where the last set time is expressed in <a href="https://en.wikipedia.org/wiki/Unix_time">POSIX time</a>
 If the password is older than the, with profile set policy, max age then macOS will expire it immediately and force the user to reset it at next login/screen unlock.
-The use of the old password will not be permitted for (at least) any GUI-admin tasks, commandline <a href="https://en.wikipedia.org/wiki/Sudo"sudo</a> seems unaffected.
+The use of the old password will not be permitted for (at least) any GUI-admin tasks, commandline <a href="https://en.wikipedia.org/wiki/Sudo">sudo</a> seems unaffected.
