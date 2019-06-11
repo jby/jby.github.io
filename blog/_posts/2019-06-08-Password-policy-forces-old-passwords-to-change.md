@@ -8,8 +8,10 @@ I've been playing with setting a password policy for all our Mac users with a co
 
 If you set a max password age in such a policy macOS will look at the key passwordLastSetTime:
 ```
-	<key>passwordLastSetTime</key>
-	<real>1546446982.760783</real>
+
+<key>passwordLastSetTime</key>
+<real>1546446982.760783</real>
+
 ```
 Where the last set time is expressed in <a href="https://en.wikipedia.org/wiki/Unix_time">POSIX time</a>
 If the password is older than the, with profile set policy, max age then macOS will expire it immediately and force the user to reset it at next login/screen unlock.
