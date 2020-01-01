@@ -4,7 +4,7 @@ title: Synology DS918+ running Plex
 comments: false
 ---
 
-So, I decided to retire my old Mac mini with external USB-drives runnning <a href="https://plex.tv/">Plex</a>, with <a href="https://sonarr.tv/">Sonarr</a>, <a href="https://radarr.video/">Radarr</a>, <link type="a" href="https://deluge-torrent.org/">Deluge</a> (previously), <a href="https://transmissionbt.com/">Transmission</a>, <a href="https://sabnzbd.org/">SABNzb</a> and <a href="https://github.com/Jackett/Jackett">Jackett</a> for downloading and organizing content.
+So, I decided to retire my old Mac mini with external USB-drives runnning <a href="https://plex.tv/">Plex</a>, with <a href="https://sonarr.tv/">Sonarr</a>, <a href="https://radarr.video/">Radarr</a>, <a href="https://deluge-torrent.org/">Deluge</a> (previously), <a href="https://transmissionbt.com/">Transmission</a>, <a href="https://sabnzbd.org/">SABNzb</a> and <a href="https://github.com/Jackett/Jackett">Jackett</a> for downloading and organizing content.
 
 I now have a <a href="https://www.synology.com/en-global/products/DS918+">Synology DS918+</a> with 4 8TB drives instead.
 
