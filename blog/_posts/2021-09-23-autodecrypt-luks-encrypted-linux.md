@@ -25,7 +25,8 @@ sudo cryptsetup luksAddKey /dev/sda5 keyfile
 ```
 Then, I formatted my USB flash drive with ext2 and gave it a label. I used a label, so that later I can mount it by label, and replace the USB flash drive in case something goes wrong with it.
 
-```sudo mkfs -t ext2 /dev/sdc1
+```
+sudo mkfs -t ext2 /dev/sdc1
 sudo e2label /dev/sdc1 KEYS
 ```
 (of course, your device will vary)
