@@ -48,6 +48,8 @@ which I changed to
 sd5_crypt UUID=(...) /dev/disk/by-label/KEYS:/keyfile luks,keyscript=/lib/cryptsetup/scripts/passdev
 Finally, update the initramfs:
 
+```
 sudo update-initramfs -uv
+```
 It now boots using the keyfile on the USB flash drive. If I remove the flash drive (say, when I go on holiday) it doesn't boot and my data is secure.
 
