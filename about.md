@@ -13,7 +13,7 @@ At the end of 1995 I grew weary of the Ericsson salary-politics and left to work
 
 Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href="https://en.wikipedia.org/wiki/HP-UX">HP-UX</a> and <a href="https://www.centos.org/">CentOS</a> up until November of 2016 when I took over as technical lead for all <a href="https://www.apple.com/mac/">Macs</a> at my current Company, having used a MacPro and a MacBookPro as my work computers since 2011.
 
-As of 2019 I'm also responsible for setting up a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora.
+As of 2019 I'm also responsible for setting up a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora</a>. Now, mid 2022, we're contemplating (and testing) moving away from Fedora to either plain <a href="https://www.debian.org/">Debian</a> or <a href="https://www.ubuntu.com">Ubuntu</a>. I've "snuck" in a bit of <a href="https://www.ansible.com">Ansible</a> in the setup process as well.
 
 We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in addition to <a href="https://munki.org/munki/">Munki</a> to manage these Macs (160 to date).
 
