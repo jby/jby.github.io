@@ -16,5 +16,3 @@ During that I also found the <a href="https://github.com/tmux-plugins/tpm">Tmux 
 <p>
 For all of the tools (fish, tmux and nvim) I also found the <a href="https://draculatheme.com">Dracula</a> theme/colorscheme, which also has themes/colorschemes for some 300+ apps, including <a href="https://code.visualstudio.com">Visual Studio Code</a>, <a href="https://iterm2.com">iTerm</a>, native terminals for Gnome, macOS and Windows among others.
 
-
-# Mon 2023-02-13 15:06:45+0100
