@@ -11,7 +11,7 @@ I've benn using all different incarnations of <a href="https://en.wikipedia.org/
 The setup I've been using with MacVim has been the <a href="https://nandalopes.github.io/dotfiles/">YADR</a> setup.
 However, since I'm not a developer per se, but a SysAdmin, there were a bit too much config involved in YADR.
 <p>
-I've now found NeoVim and it's excellent <a href="https://github.com/nvim-lua/kickstart.nvim">LazyVim setup</a>, that I'll be trying out for a while.
+I've now found NeoVim and it's excellent <a href="https://www.lazyvim.org/">LazyVim setup</a>, that I'll be trying out for a while.
 During that I also found the <a href="https://github.com/tmux-plugins/tpm">Tmux Plugin Manager</a>, that I'll also test for a while.
 <p>
 For all of the tools (fish, tmux and nvim) I also found the <a href="https://draculatheme.com">Dracula</a> theme/colorscheme, which also has themes/colorschemes for some 300+ apps, including <a href="https://code.visualstudio.com">Visual Studio Code</a>, <a href="https://iterm2.com">iTerm</a>, native terminals for Gnome, macOS and Windows among others.
