@@ -1,8 +1,7 @@
-
-
 ---
 layout: post
 title: Back to zsh
+comments: false
 ---
 
 I've been using <a href="https:fishshell.com">fish</a> for quite a while now, in cooperation with <a href="https://tmux.github.io">tmux</a>.
