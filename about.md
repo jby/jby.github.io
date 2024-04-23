@@ -19,7 +19,7 @@ We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in add
 
 We previously used <a href="https://www.filewave.com/">FileWave</a> for a couple of years for this.
 
-[### More Information](#more-info)
+### <a id="more-info" />More Information
 
 Saturday August 15 2015, 5 days after my 46th birthday, I suffered a stroke while preparing for a dog show in Norrköping.
 
