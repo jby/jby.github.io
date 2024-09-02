@@ -9,13 +9,13 @@ In January 1991, when working for <a href="https://www.ericsson.com/">Ericsson</
 
 In October 1994 I had tired of testing the <a href="https://en.wikipedia.org/wiki/AXE_telephone_exchange">AXE Telephone Exchange</a> that I was supposed to do and changed jobs within Ericsson to become a full time SysAdmin for some 1500 users, initially still on SunOS 4, but pretty soon I had to convert from <a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a> to the <a href="https://en.wikipedia.org/wiki/UNIX_System_V#SVR4">SVR4</a>-based <a href="https://en.wikipedia.org/wiki/Solaris_(operating_system)">Solaris</a> 2.4.
 
-At the end of 1995 I grew weary of the Ericsson salary-politics and left to work as a Systems Support Engineer at <a href="https://en.wikipedia.org/wiki/Sun_Microsystems">Sun Microsystems. Solaris went through 2.5->2.5.1->2.6->7->8->9->10 while I worked for Sun, I left at the end of 2004.
+At the end of 1995 I grew weary of the Ericsson salary-politics and left to work as a Systems Support Engineer at <a href="https://en.wikipedia.org/wiki/Sun_Microsystems">Sun Microsystems</a>. Solaris went through 2.5->2.5.1->2.6->7->8->9->10 while I worked for Sun, I left at the end of 2004.
 
 Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href="https://en.wikipedia.org/wiki/HP-UX">HP-UX</a> and <a href="https://www.centos.org/">CentOS</a> up until November of 2016 when I took over as technical lead for all <a href="https://www.apple.com/mac/">Macs</a> at my current Company, having used a MacPro and a MacBookPro as my work computers since 2011.
 
-As of 2019 I'm also responsible for setting up a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora</a>. Now, mid 2022, we're contemplating (and testing) moving away from Fedora to either plain <a href="https://www.debian.org/">Debian</a> or <a href="https://www.ubuntu.com">Ubuntu</a>. I've "snuck" in a bit of <a href="https://www.ansible.com">Ansible</a> in the setup process as well.
+As of 2019 I'm also responsible for setting up and managing a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora</a>. Now, mid 2024, we have a managed fleet of some 120 Dell laptops running <a href="https://www.ubuntu.com">Ubuntu 20.04</a>. I've used <a href="https://www.ansible.com">Ansible</a> in the setup process this time.
 
-We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in addition to <a href="https://munki.org/munki/">Munki</a> to manage these Macs (160 to date).
+We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in addition to <a href="https://autopkg.github.io/autopkg/">AutoPkg</a>, <a href="https://munki.org/munki/">Munki</a> & <a href="https://github.com/munkireport/munkireport-php"> MunkiReport</a> to manage these Macs (210 to date).
 
 We previously used <a href="https://www.filewave.com/">FileWave</a> for a couple of years for this.
 
