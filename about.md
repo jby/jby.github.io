@@ -13,7 +13,7 @@ At the end of 1995 I grew weary of the Ericsson salary-politics and left to work
 
 Since then I've worked, again as a SysAdmin (now *Senior* though), with <a href="https://en.wikipedia.org/wiki/HP-UX">HP-UX</a> and <a href="https://www.centos.org/">CentOS</a> up until November of 2016 when I took over as technical lead for all <a href="https://www.apple.com/mac/">Macs</a> at my current Company, having used a MacPro and a MacBookPro as my work computers since 2011.
 
-As of 2019 I'm also responsible for setting up and managing a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet and <a href="https://fedoraproject.org/">Fedora</a>. Now, mid 2024, we have a managed fleet of some 120 Dell laptops running <a href="https://www.ubuntu.com">Ubuntu 20.04</a>. I've used <a href="https://www.ansible.com">Ansible</a> in the setup process this time.
+As of 2019 I'm also responsible for setting up and managing a managed <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> deskop environment, using <a href="https://puppet.com/">Puppet</a> and <a href="https://fedoraproject.org/">Fedora</a>. Now, mid 2024, we have a managed fleet of some 120 Dell laptops running <a href="https://www.ubuntu.com">Ubuntu 20.04</a>. I've used <a href="https://www.ansible.com">Ansible</a> in the setup process this time.
 
 We currently use <a href="https://jamf.com">Jamf Pro</a> (cloud instance) in addition to <a href="https://autopkg.github.io/autopkg/">AutoPkg</a>, <a href="https://munki.org/munki/">Munki</a> & <a href="https://github.com/munkireport/munkireport-php"> MunkiReport</a> to manage these Macs (210 to date).
 
