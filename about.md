@@ -51,6 +51,6 @@ So beginning of february 2016 I was back to about 80% usage of both arm/hand and
 
 I started going back to the office for limited time (2 hours a day initially, and only 4 days a week) in April, increasing the hours over time and since August 1 2016 I work full time again.
 
-To add to my current status: I'm back playing golf - albeit not as well as before, but that's more due to lack of practice than being affected by my stroke.
+To add to my current status: I'm back playing golf - albeit not as well as before, but that's more due to lack of practice than being affected by my stroke. And I'm going to the Gym at least twice a week, but I still feel I'm weaker in my left side, despite all training (both rehab and regular strength training).
 
 *Last updated: 2022-05-18*
